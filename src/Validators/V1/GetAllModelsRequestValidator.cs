@@ -1,7 +1,8 @@
 using FluentValidation;
-using Gay.Silverbranch.API.Utilities.Contract.Requests;
 
-namespace Gay.Silverbranch.API.Utilities.Contract.Validators.V1;
+using Gay.Silverbranch.Api.Utilities.Contract.Requests.V1;
+
+namespace Gay.Silverbranch.Api.Utilities.Contract.Validators.V1;
 
 public class GetAllModelsRequestValidator : 
     AbstractValidator<GetAllModelsRequest>

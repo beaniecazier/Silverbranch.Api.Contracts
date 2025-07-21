@@ -1,6 +1,6 @@
 ﻿using Swashbuckle.AspNetCore.Annotations;
 
-namespace Gay.Silverbranch.API.Utilities.Contract.Requests.V1;
+namespace Gay.Silverbranch.Api.Utilities.Contract.Requests.V1;
 
 public class PostBaseModelRequest
 {

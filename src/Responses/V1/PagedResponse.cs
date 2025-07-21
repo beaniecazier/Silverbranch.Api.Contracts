@@ -1,4 +1,4 @@
-﻿namespace Gay.Silverbranch.API.Utilities.Contract.Responses;
+﻿namespace Gay.Silverbranch.Api.Utilities.Contract.Responses.V1;
 
 public class PagedResponse<TResponse>
 {

@@ -13,7 +13,7 @@
         <Authors>Tiabeanie Cazier</Authors>
         <Product>API Contract Utilities</Product>
         <Title>$(Company) $(Product)</Title>
-        <AssemblyName>API.Utilities.Contract</AssemblyName>
+        <AssemblyName>Api.Utilities.Contract</AssemblyName>
         <RootNamespace>Gay.Silverbranch.$(AssemblyName)</RootNamespace>
         <PackageId>Gay.Silverbranch.pkg.$(AssemblyName)</PackageId>
         <VersionPrefix>1.0.0</VersionPrefix>
@@ -90,12 +90,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Interface\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-      <PackageReference Include="Gay.Silverbranch.pkg.API.Utilities.Common" Version="1.0.0-alpha-20250721-150457" />
+      <PackageReference Include="Gay.Silverbranch.pkg.API.Utilities.Common" Version="1.0.0-alpha-20250721-165736" />
       <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.1" />
     </ItemGroup>
     
