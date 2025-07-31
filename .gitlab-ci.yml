@@ -30,7 +30,7 @@ deploy:
       --password $CI_JOB_TOKEN \
       --store-password-in-clear-text
     - dotnet build -c Release
-    - PACKAGE_PATH=$(find . -type f -name "Gay.Silverbranch.pkg.Api.Sql*.nupkg"| head -n 1)
+    - PACKAGE_PATH=$(find . -type f -name "Gay.Silverbranch.pkg.Api.Utilities.Contract*.nupkg"| head -n 1)
     - echo "Pushing $PACKAGE_PATH"
     - |
       dotnet nuget push "$PACKAGE_PATH" \
