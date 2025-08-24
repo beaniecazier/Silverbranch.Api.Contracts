@@ -95,7 +95,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-      <PackageReference Include="Gay.Silverbranch.pkg.Api.Utilities.Common" Version="1.0.0-alpha-20250823-025854" />
+      <PackageReference Include="Gay.Silverbranch.pkg.Api.Utilities.Common" Version="1.0.0-alpha-20250824-232010" />
       <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.1" />
     </ItemGroup>
     
